@@ -1,1 +1,1 @@
-https://jfsaenzr.github.io/RifaJade/
+https://jfsaenzr.github.io/RifaJade/index.html
