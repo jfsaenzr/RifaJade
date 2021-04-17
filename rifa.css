@@ -1,26 +1,21 @@
-  body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        .example2 {
-            background-size: cover;
-            background: #08B;
-            background: -webkit-linear-gradient(180deg, #e487d7 0%, #5E1293 100%);
-            background: -moz-linear-gradient(180deg, #e487d7 0%, #5E1293 100%);
-            background: linear-gradient(180deg, #e487d7 0%, #5E1293 100%);
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
+    body{
+        background: #08B;
+        background: -webkit-linear-gradient(180deg, #e487d7 0%, #5E1293 100%);
+        background: -moz-linear-gradient(180deg, #e487d7 0%, #5E1293 100%);
+        background: linear-gradient(180deg, #e487d7 0%, #5E1293 100%);
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        overflow-y: scroll;
+    }
 
         .cuadrados {
             position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
-            height: 100%;
+            width: 90%;
+            height: 90%;
             z-index: 1;
         }
 
@@ -308,4 +303,11 @@
         .logo {
            /*border-radius: 200px;*/
             opacity: .8;
+            width: 100%;
         }
+
+        .img {
+            /*border-radius: 200px;*/
+             opacity: .8;
+             width: 100%;
+         }
