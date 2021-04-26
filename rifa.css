@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
     body{
         background: #08B;
         background: -webkit-linear-gradient(180deg, #e487d7 0%, #5E1293 100%);
@@ -298,6 +302,12 @@
 
         .vendida{
             background-color: #93496C;
+            font-size: 30px;
+        }
+
+        .texto{
+            background-color: #93496C;
+            font-size: 17px;
         }
 
         .logo {
